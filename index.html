@@ -6,9 +6,9 @@
   <style>
     body { font-family: sans-serif; padding: 20px; }
     table { border-collapse: collapse; width: 100%; table-layout: fixed; }
-    th, td { border: 1px solid #ccc; padding: 4px; text-align: center; word-wrap: break-word; font-size: 1.1em; }
+    th, td { border: 1px solid #ccc; padding: 2px; text-align: center; word-wrap: break-word; font-size: 1.1em; }
     td.question-text { text-align: left; }
-    .result { margin-top: 10px; font-size: 1.2em; font-weight: bold; text-align: center; }
+    .result { margin-top: 2px; font-size: 1.1em; font-weight: bold; text-align: center; }
     .button-container { text-align: center; margin-top: 10px; }
     button {
       padding: 15px 30px;
@@ -34,43 +34,43 @@
     }
 
     #mainContent h1, #mainContent h2 {
-  margin: 5px 0;          /* タイトル間の余白を圧縮 */
-  font-size: 1.2em;       /* フォントサイズも縮小 */
-}
+    margin: 2px 0;          /* タイトル間の余白を圧縮 */
+    font-size: 1.1em;       /* フォントサイズも縮小 */
+    }
 
-#mainContent > div:nth-child(2) {
-  margin: 10px 0;         /* ID入力欄の上下余白縮小 */
-  font-size: 1.2em;
-}
+    #mainContent > div:nth-child(2) {
+      margin: 10px 0;         /* ID入力欄の上下余白縮小 */
+      font-size: 1.2em;
+    }
 
-#userId {
-  font-size: 1em;
-  padding: 5px;
-  width: 150px;           /* ← 200px → 150px に縮小 */
-}
+    #userId {
+      font-size: 1em;
+      padding: 5px;
+      width: 150px;           /* ← 200px → 150px に縮小 */
+    }
 
     #loginPage {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh; /* 画面縦いっぱい */
-  text-align: center;
-  font-size: 1.5em;
-}
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh; /* 画面縦いっぱい */
+      text-align: center;
+      font-size: 1.5em;
+    }
 
-#loginPage input[type="password"] {
-  font-size: 1em;
-  padding: 10px;
-  width: 300px;
-  margin-top: 10px;
-}
+    #loginPage input[type="password"] {
+      font-size: 1em;
+      padding: 10px;
+      width: 300px;
+      margin-top: 10px;
+    }
 
-#loginPage small {
-  font-size: 0.8em;
-  color: red;
-  margin-top: 5px;
-}
+    #loginPage small {
+      font-size: 0.8em;
+      color: red;
+      margin-top: 5px;
+    }
   </style>
 </head>
 
@@ -91,7 +91,7 @@
     <h1>自己評価式抑うつ性尺度（ＳＤＳ）チェック表</h1>
   <h2>※ここ２週間の状態を振り返ってチェックしてください。</h2> 
   </div>
-  <div style="margin: 20px 0; text-align: center; font-size: 1.5em;">
+  <div style="margin: 10px 0; text-align: center; font-size: 1.2em;">
   <label for="userId">ID：</label>
   <input type="text" id="userId" name="userId" placeholder="例: 123456" style="font-size: 1em; padding: 8px; width: 200px;">
 
