@@ -89,7 +89,6 @@
   <div id="mainContent">
     <div style="text-align: center;">
     <h1>自己評価式抑うつ性尺度（ＳＤＳ）チェック表</h1>
-  <h2>※ここ２週間の状態を振り返ってチェックしてください。</h2> 
   </div>
   <div style="margin: 10px 0; text-align: center; font-size: 1.2em;">
   <label for="userId">ID：</label>
@@ -104,41 +103,46 @@
         <tr>
           <th>番号</th>
           <th>質問内容</th>
-          <th>殆どない</th>
-          <th>時々</th>
-          <th>かなり</th>
-          <th>殆どいつも</th>
+          <th>常に</th>
+          <th>しばしば</th>
+          <th>ときに</th>
+          <th>なし</th>
         </tr>
       </thead>
       <tbody id="questionsTable">
-        <tr><td>1</td><td class="question-text">気分が沈んで、憂鬱だ</td><td><input type="radio" name="q1" value="0"></td><td><input type="radio" name="q1" value="1"></td><td><input type="radio" name="q1" value="2"></td><td><input type="radio" name="q1" value="3"></td></tr>
-        <tr><td>2</td><td class="question-text">朝方が一番気分がよい</td><td><input type="radio" name="q2" value="0"></td><td><input type="radio" name="q2" value="1"></td><td><input type="radio" name="q2" value="2"></td><td><input type="radio" name="q2" value="3"></td></tr>
-        <tr><td>3</td><td class="question-text">些細なことで泣いたり、泣きたくなる</td><td><input type="radio" name="q3" value="0"></td><td><input type="radio" name="q3" value="1"></td><td><input type="radio" name="q3" value="2"></td><td><input type="radio" name="q3" value="3"></td></tr>
-        <tr><td>4</td><td class="question-text">夜、よく眠れない</td><td><input type="radio" name="q4" value="0"></td><td><input type="radio" name="q4" value="1"></td><td><input type="radio" name="q4" value="2"></td><td><input type="radio" name="q4" value="3"></td></tr>
+        <tr><td>1</td><td class="question-text">気分が沈んで憂うつだ</td><td><input type="radio" name="q1" value="0"></td><td><input type="radio" name="q1" value="1"></td><td><input type="radio" name="q1" value="2"></td><td><input type="radio" name="q1" value="3"></td></tr>
+        <tr><td>2</td><td class="question-text">朝が、いちばん気分がよい</td><td><input type="radio" name="q2" value="0"></td><td><input type="radio" name="q2" value="1"></td><td><input type="radio" name="q2" value="2"></td><td><input type="radio" name="q2" value="3"></td></tr>
+        <tr><td>3</td><td class="question-text">ささいなことでも泣きたくなる</td><td><input type="radio" name="q3" value="0"></td><td><input type="radio" name="q3" value="1"></td><td><input type="radio" name="q3" value="2"></td><td><input type="radio" name="q3" value="3"></td></tr>
+        <tr><td>4</td><td class="question-text">夜、眠れない</td><td><input type="radio" name="q4" value="0"></td><td><input type="radio" name="q4" value="1"></td><td><input type="radio" name="q4" value="2"></td><td><input type="radio" name="q4" value="3"></td></tr>
         <tr><td>5</td><td class="question-text">食欲は普通にある</td><td><input type="radio" name="q5" value="0"></td><td><input type="radio" name="q5" value="1"></td><td><input type="radio" name="q5" value="2"></td><td><input type="radio" name="q5" value="3"></td></tr>
-        <tr><td>6</td><td class="question-text">性欲は普通（異性の友人と付き合ってみたい）</td><td><input type="radio" name="q6" value="0"></td><td><input type="radio" name="q6" value="1"></td><td><input type="radio" name="q6" value="2"></td><td><input type="radio" name="q6" value="3"></td></tr>
-        <tr><td>7</td><td class="question-text">最近、痩せてきた</td><td><input type="radio" name="q7" value="0"></td><td><input type="radio" name="q7" value="1"></td><td><input type="radio" name="q7" value="2"></td><td><input type="radio" name="q7" value="3"></td></tr>
+        <tr><td>6</td><td class="question-text">異性と話すことは、楽しい</td><td><input type="radio" name="q6" value="0"></td><td><input type="radio" name="q6" value="1"></td><td><input type="radio" name="q6" value="2"></td><td><input type="radio" name="q6" value="3"></td></tr>
+        <tr><td>7</td><td class="question-text">最近、やせてきた</td><td><input type="radio" name="q7" value="0"></td><td><input type="radio" name="q7" value="1"></td><td><input type="radio" name="q7" value="2"></td><td><input type="radio" name="q7" value="3"></td></tr>
         <tr><td>8</td><td class="question-text">便秘をしている</td><td><input type="radio" name="q8" value="0"></td><td><input type="radio" name="q8" value="1"></td><td><input type="radio" name="q8" value="2"></td><td><input type="radio" name="q8" value="3"></td></tr>
-        <tr><td>9</td><td class="question-text">普段よりも動悸がする（胸がドキドキする）</td><td><input type="radio" name="q9" value="0"></td><td><input type="radio" name="q9" value="1"></td><td><input type="radio" name="q9" value="2"></td><td><input type="radio" name="q9" value="3"></td></tr>
-        <tr><td>10</td><td class="question-text">何となく疲れる</td><td><input type="radio" name="q10" value="0"></td><td><input type="radio" name="q10" value="1"></td><td><input type="radio" name="q10" value="2"></td><td><input type="radio" name="q10" value="3"></td></tr>
-        <tr><td>11</td><td class="question-text">気持ちはいつもさっぱりしている</td><td><input type="radio" name="q11" value="0"></td><td><input type="radio" name="q11" value="1"></td><td><input type="radio" name="q11" value="2"></td><td><input type="radio" name="q11" value="3"></td></tr>
-        <tr><td>12</td><td class="question-text">いつもと変わりなく仕事をこなせる</td><td><input type="radio" name="q12" value="0"></td><td><input type="radio" name="q12" value="1"></td><td><input type="radio" name="q12" value="2"></td><td><input type="radio" name="q12" value="3"></td></tr>
+        <tr><td>9</td><td class="question-text">普段よりも動悸がする</td><td><input type="radio" name="q9" value="0"></td><td><input type="radio" name="q9" value="1"></td><td><input type="radio" name="q9" value="2"></td><td><input type="radio" name="q9" value="3"></td></tr>
+        <tr><td>10</td><td class="question-text">なんとなく、疲れやすい</td><td><input type="radio" name="q10" value="0"></td><td><input type="radio" name="q10" value="1"></td><td><input type="radio" name="q10" value="2"></td><td><input type="radio" name="q10" value="3"></td></tr>
+        <tr><td>11</td><td class="question-text">気持ちは、いつもすっきりしている</td><td><input type="radio" name="q11" value="0"></td><td><input type="radio" name="q11" value="1"></td><td><input type="radio" name="q11" value="2"></td><td><input type="radio" name="q11" value="3"></td></tr>
+        <tr><td>12</td><td class="question-text">いつもとかわりなく身の回りのことができる</td><td><input type="radio" name="q12" value="0"></td><td><input type="radio" name="q12" value="1"></td><td><input type="radio" name="q12" value="2"></td><td><input type="radio" name="q12" value="3"></td></tr>
         <tr><td>13</td><td class="question-text">落ち着かず、じっとしていられない</td><td><input type="radio" name="q13" value="0"></td><td><input type="radio" name="q13" value="1"></td><td><input type="radio" name="q13" value="2"></td><td><input type="radio" name="q13" value="3"></td></tr>
-        <tr><td>14</td><td class="question-text">将来に希望（楽しみ）がある</td><td><input type="radio" name="q14" value="0"></td><td><input type="radio" name="q14" value="1"></td><td><input type="radio" name="q14" value="2"></td><td><input type="radio" name="q14" value="3"></td></tr>
+        <tr><td>14</td><td class="question-text">将来に希望がもてる</td><td><input type="radio" name="q14" value="0"></td><td><input type="radio" name="q14" value="1"></td><td><input type="radio" name="q14" value="2"></td><td><input type="radio" name="q14" value="3"></td></tr>
         <tr><td>15</td><td class="question-text">いつもよりイライラする</td><td><input type="radio" name="q15" value="0"></td><td><input type="radio" name="q15" value="1"></td><td><input type="radio" name="q15" value="2"></td><td><input type="radio" name="q15" value="3"></td></tr>
-        <tr><td>16</td><td class="question-text">たやすく決断できる</td><td><input type="radio" name="q16" value="0"></td><td><input type="radio" name="q16" value="1"></td><td><input type="radio" name="q16" value="2"></td><td><input type="radio" name="q16" value="3"></td></tr>
-        <tr><td>17</td><td class="question-text">自分は人の役に立つと思う</td><td><input type="radio" name="q17" value="0"></td><td><input type="radio" name="q17" value="1"></td><td><input type="radio" name="q17" value="2"></td><td><input type="radio" name="q17" value="3"></td></tr>
-        <tr><td>18</td><td class="question-text">今の生活は充実していると思う</td><td><input type="radio" name="q18" value="0"></td><td><input type="radio" name="q18" value="1"></td><td><input type="radio" name="q18" value="2"></td><td><input type="radio" name="q18" value="3"></td></tr>
-        <tr><td>19</td><td class="question-text">自分は死んだ方が他の人は幸せだと思う</td><td><input type="radio" name="q19" value="0"></td><td><input type="radio" name="q19" value="1"></td><td><input type="radio" name="q19" value="2"></td><td><input type="radio" name="q19" value="3"></td></tr>
-        <tr><td>20</td><td class="question-text">日頃している事に満足している</td><td><input type="radio" name="q20" value="0"></td><td><input type="radio" name="q20" value="1"></td><td><input type="radio" name="q20" value="2"></td><td><input type="radio" name="q20" value="3"></td></tr>
+        <tr><td>16</td><td class="question-text">迷わず、物事を決めることができる</td><td><input type="radio" name="q16" value="0"></td><td><input type="radio" name="q16" value="1"></td><td><input type="radio" name="q16" value="2"></td><td><input type="radio" name="q16" value="3"></td></tr>
+        <tr><td>17</td><td class="question-text">役に立つ人間だと思う</td><td><input type="radio" name="q17" value="0"></td><td><input type="radio" name="q17" value="1"></td><td><input type="radio" name="q17" value="2"></td><td><input type="radio" name="q17" value="3"></td></tr>
+        <tr><td>18</td><td class="question-text">いまの生活は、充実している</td><td><input type="radio" name="q18" value="0"></td><td><input type="radio" name="q18" value="1"></td><td><input type="radio" name="q18" value="2"></td><td><input type="radio" name="q18" value="3"></td></tr>
+        <tr><td>19</td><td class="question-text">自分が死んだ方が他の人は楽に暮らせると思う</td><td><input type="radio" name="q19" value="0"></td><td><input type="radio" name="q19" value="1"></td><td><input type="radio" name="q19" value="2"></td><td><input type="radio" name="q19" value="3"></td></tr>
+        <tr><td>20</td><td class="question-text">いまの生活に満足している</td><td><input type="radio" name="q20" value="0"></td><td><input type="radio" name="q20" value="1"></td><td><input type="radio" name="q20" value="2"></td><td><input type="radio" name="q20" value="3"></td></tr>
       </tbody>
     </table>
 
     <div id="warning" class="warning" style="display:none;"></div>
 
+    <div id="submit-note">
+        <div style="text-align: center;">
+        <h1>「送信」ボタンは１回だけ押してください！</h1>
+    </div>
+
     <div class="button-container">
-      <button type="button" onclick="calculateScore()">結果を見る</button>
-      <button type="button" onclick="resetForm()" style="background-color: #f44336; float: right;">リセット</button>
+        <button type="button" onclick="calculateScore()">送信</button>
+        <button type="button" onclick="resetForm()" style="background-color: #f44336; float: right;">リセット</button>
     </div>
   </form>
 
@@ -147,15 +151,15 @@
   <script>
     //点数の配分
     const scoringMap = [
-      [1, 2, 3, 4], [4, 3, 2, 1], [1, 2, 3, 4], [1, 2, 3, 4],
-      [4, 3, 2, 1], [4, 3, 2, 1], [1, 2, 3, 4], [1, 2, 3, 4],
-      [1, 2, 3, 4], [1, 2, 3, 4], [4, 3, 2, 1], [4, 3, 2, 1],
-      [1, 2, 3, 4], [4, 3, 2, 1], [1, 2, 3, 4], [4, 3, 2, 1],
-      [4, 3, 2, 1], [4, 3, 2, 1], [1, 2, 3, 4], [4, 3, 2, 1]
+      [4,3,2,1], [1,2,3,4], [4,3,2,1], [4,3,2,1],
+      [1,2,3,4], [1,2,3,4], [4,3,2,1], [4,3,2,1],
+      [4,3,2,1], [4,3,2,1], [1,2,3,4], [1,2,3,4],
+      [4,3,2,1], [1,2,3,4], [4,3,2,1], [1,2,3,4],
+      [1,2,3,4], [1,2,3,4], [4,3,2,1], [1,2,3,4]
     ];
 
     //googleスプレッドシートのリンク
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbyNcz2nGxNkI7GnXmA0-T0-Nz8ItWLRE_80fl00FA0kxWVhva88KysCnvRkOFRRh55IrA/exec';
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxckCNt7rBSeWVR2H6BTkIBPJbJZZbEXIyDW3zLsBuoWjc9z917DkLC8iN8Ow_b0Rkw2w/exec';
 
 //画面の切り替え用
 window.onload = function() {
